@@ -10,7 +10,7 @@ The preprocessing scripts are named 'processing_datasetname'. The correct datase
 PCC feature selection can be performed using the scripts labelled 'PCC_feature_selection_datasetname'. The dataset created by the preprocessing script should be used for the feature selection. The correct dataset ('processed_datasetname') should be used with the matching feature selection script. AMB feature selection was done in Bayesialab software.
 
 ## Clustering
-The BHC scripts are named 'BHC_datasetname'. The dataset created by the feature selection scipt should be used here. The correct dataset ('datasetname_feature_selection') should be used with the matching BHC script. BN clustering was performed in Bayesialab software.
+The BHC scripts are named 'BHC_datasetname'. The dataset created by the feature selection scipt should be used here. The correct dataset ('PCC_datasetname_feature_selection') should be used with the matching BHC script. BN clustering was performed in Bayesialab software. The BHC scripts named 'BHC_datasetname_mb'should be used for the AMB feature selection datasets made by Bayesialab. The correct dataset ('datasetname_AMB_feature_selection_BN') should be used with the matching BHC script.
 
 ## BN checks
 The script named 'BN_checks'can be used to calculate the performance metrics of the BN clustering. The 'datasetname_AMB_feature_selection_BN' and 'datasetname_PCC_feature_selection_BN' files from Bayesialab can be checked using this script.
