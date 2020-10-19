@@ -13,4 +13,4 @@ PCC feature selection can be performed using the scripts labelled 'PCC_feature_s
 The BHC scripts are named 'BHC_datasetname'. The dataset created by the feature selection scipt should be used here. The correct dataset ('datasetname_feature_selection') should be used with the matching BHC script. BN clustering was performed in Bayesialab software.
 
 ## BN checks
-The script named 'BN_checks'can be used to calculate the performance metrics of the BN clustering. The  files from Bayesialab can be checked using this script.
+The script named 'BN_checks'can be used to calculate the performance metrics of the BN clustering. The 'datasetname_AMB_feature_selection_BN' and 'datasetname_PCC_feature_selection_BN' files from Bayesialab can be checked using this script.
