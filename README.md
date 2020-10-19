@@ -14,3 +14,6 @@ The BHC scripts are named 'BHC_datasetname'. The dataset created by the feature 
 
 ## BN checks
 The script named 'BN_checks'can be used to calculate the performance metrics of the BN clustering. The 'datasetname_AMB_feature_selection_BN' and 'datasetname_PCC_feature_selection_BN' files from Bayesialab can be checked using this script.
+
+## Bayesialab
+The BN clustering results done in Bayesialab.
