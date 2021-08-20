@@ -4,7 +4,7 @@ The 3 datasets are: a leukemia dataset, a colon cancer dataset and an Alzheimer'
 
 
 ## Preprocessing
-The preprocessing scripts are named 'processing_datasetname'. The correct dataset should be used with the matching processing script. Once the data has been preprocessed we can perform feature selection. (The leukemia dataset 'leukemia_big.csv' has already been preprocessed).
+The preprocessing scripts are named 'preprocessing_datasetname'. The correct dataset should be used with the matching processing script. Once the data has been preprocessed we can perform feature selection. (The leukemia dataset 'leukemia_big.csv' has already been preprocessed).
 
 ## Feature selection
 PCC feature selection can be performed using the scripts labelled 'PCC_feature_selection_datasetname'. The dataset created by the preprocessing script should be used for the feature selection. The correct dataset ('processed_datasetname') should be used with the matching feature selection script. AMB feature selection was done in Bayesialab software.
